@@ -5,3 +5,8 @@
  - [ ] Learn about [GitHub Pages](https://skills.github.com/#first-gay-on-github)
  - [ ] Convert my first blog post into an actual webpage.
 ## Review
+Convert an image or video from dark mode to light mode useing [ffmpeg](https://www.ffmpeg/org)
+
+```bash
+ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast1.2:saturation=1.1" output.mp4
+```
